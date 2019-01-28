@@ -62,14 +62,14 @@
     .toggle {
         width: 25%;
         display: block;
-        margin-left: 6px;
+        margin-left: 22px;
     }
     .toggle .line{
         width: 30px;
         height: 3px;
         background-color: #ffffff;
         display: block;
-        margin: 8px auto;
+        margin: 8px 0px;
         -webkit-transition: all 0.3s ease-in-out;
         -o-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
@@ -340,14 +340,38 @@ table th, table td {
 .topnews__right{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
 }
-
+.topnews__left{
+    width: 100%;
+}
+.topnews__left img{
+    width: 100%;
+}
 }
 
 @media screen and (max-width: 886px) {
     .wrapper-content {
     justify-content: space-around;
     flex-wrap: wrap;
+}
+.topnews__left{
+    width: 100%;
+}
+.topnews__left img{
+    width: 100%;
+}
+.topnews__right {
+    justify-content: space-around;
+    width: 100%
+}
+
+}
+
+@media screen and (max-width: 768px) {
+    .menu{
+    width: 100%;
 }
 
 }
