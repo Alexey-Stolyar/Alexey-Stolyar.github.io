@@ -1,0 +1,26 @@
+{
+  "name": "uagoal",
+  "version": "1.0.0",
+  "description": "UAGOAL Test task",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aleksej977/uagoal.git"
+  },
+  "author": "Alex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aleksej977/uagoal/issues"
+  },
+  "homepage": "https://github.com/Aleksej977/uagoal#readme",
+  "dependencies": {
+    "gulp": "^4.0.0",
+    "gulp-uglify": "^3.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3"
+  }
+}
